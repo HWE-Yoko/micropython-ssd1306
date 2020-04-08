@@ -8,7 +8,6 @@ d = SSD1306()
 d.poweron()
 d.init_display()
 
-'''
 d.clear()
 d.p_string('The quick brown fox jumped over the lazy dog')
 d.display()
@@ -33,7 +32,6 @@ d.clear()
 bmp.bmp('icon.bmp',d)
 d.display()
 time.sleep(5)
-'''
 
 d.clear()
 d.p_string('HHHHHHHHHHHHHHHHHHHHH')
